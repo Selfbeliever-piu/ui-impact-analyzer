@@ -1,0 +1,23 @@
+{
+  "name": "ui-impact-analyzer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "tracking down the impact of change on direct and indirect components",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node --loader ts-node/esm src/index.ts"
+  },
+  "keywords": [
+    "impact-analysis",
+    "developer-tools",
+    "git"
+  ],
+  "author": "Priyanka",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
